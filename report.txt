@@ -1,3 +1,3 @@
-sp_report Journal show TxnNumber_Title, TxnType_Title, Date_Title, RefNumber_Title, Name_Title, Memo_Title, Account_Title, Debit_Title, Credit_Title, TxnNumber, TxnType, Date, RefNumber, Name, Memo, Account, Debit, Credit parameters DateMacro = 'LastMonth'
-sp_report TrialBalance show Debit_Title, Credit_Title, Label, Debit, Credit parameters DateMacro = 'LastMonth', ReportBasis = 'Accrual'
+sp_report Journal show TxnNumber_Title, TxnType_Title, Date_Title, RefNumber_Title, Name_Title, Memo_Title, Account_Title, Debit_Title, Credit_Title, TxnNumber, TxnType, Date, RefNumber, Name, Memo, Account, Debit, Credit parameters DateMacro = 'LastYear'
+sp_report TrialBalance show Debit_Title, Credit_Title, Label, Debit, Credit parameters DateMacro = 'LastYear', ReportBasis = 'Accrual'
 sp_report GeneralLedger show TxnType_Title, Date_Title, RefNumber_Title, Name_Title, Memo_Title, SplitAccount_Title, Debit_Title, Credit_Title, RunningBalance_Title,Blank, TxnType, Date, RefNumber, Name, Memo, SplitAccount, Debit, Credit, RunningBalance parameters DateMacro = 'LastYear'
