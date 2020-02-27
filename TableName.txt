@@ -70,7 +70,6 @@ select * from Invoice
 select * from InvoiceLine
 select * from InvoiceLinkedTxn
 select * from Item
-select * from ItemAssembliesCanBuild
 select * from ItemDiscount
 select * from ItemFixedAsset
 select * from ItemGroup
